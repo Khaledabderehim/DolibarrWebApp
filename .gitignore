@@ -1,0 +1,14 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore socket file (optional, if used in deployment)
+webapp.sock
+
+# Ignore system-specific files (optional)
+*.DS_Store
+*.log
